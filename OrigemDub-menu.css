@@ -75,6 +75,7 @@
 #chat {
   background: black-transparent;
   opacity: 0.9;
+  border-radius: 20px;
 }
 /* ##### [Ohter] ##### */
 /* Logs */
