@@ -1,0 +1,19 @@
+/* Username Color */
+
+#chat .user-5618102d6d8d111d002aca6f .username { // Igorce9
+  color: #DB182E !important;
+  font-weight: bold;
+}
+#chat .user-560975bc8d4e570300dcbbf5 .username { // Medeiros
+  color: #238341 !important;
+  font-weight: bold;
+}
+
+/* Badge */
+
+#chat .user-5618102d6d8d111d002aca6f .image_row { // Igorce9
+	content: url(https://www.dropbox.com/s/smokgtodlttpwb9/DEVBADGE30px.png?raw=1);
+}
+#chat .user-560975bc8d4e570300dcbbf5 .image_row { // Medeiros
+  content: url(https://www.dropbox.com/s/kc4dejy9c1ynb51/SPRDBADG30px.png?raw=1);
+}
