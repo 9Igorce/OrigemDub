@@ -1,0 +1,23 @@
+#chat .image_row {
+	display: none;
+}
+#chat li {
+	padding: 0 !important;
+	margin-right: 11px !important;
+}
+#chat li .activity-row {
+	padding: 5px !important;
+	min-height: 20px !important;
+	width: 100% !important;
+}
+#chat li .meta-info {
+	left: auto !important; right: 23px;
+	top: 0; bottom: auto !important;
+}
+#chat li .ChatDelete {
+	top: -5px; right: -3px;
+}
+#chat li p {
+	margin: 0 !important;
+	line-height: normal !important;
+}
