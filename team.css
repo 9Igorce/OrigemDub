@@ -23,3 +23,46 @@
 #chat .user-5606a17880fe8d0300855333 .image_row { /* Vovo_Doido */
   content: url(https://www.dropbox.com/s/kc4dejy9c1ynb51/SPRDBADG30px.png?raw=1);
 }
+
+/* Icon */
+#chat .chat-container ul.chat-main li.user-5618102d6d8d111d002aca6f .activity-row .text p a.username:before { /* Igorce9 */
+    content: url(https://i.imgur.com/7MHdeHw.png);
+    font-family: "foundation-icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    text-decoration: inherit;
+    margin-right: 5px;
+}
+
+#chat .chat-container ul.chat-main li.user-560975bc8d4e570300dcbbf5 .activity-row .text p a.username:before { /* Vovo_Doido */
+    content: url(https://i.imgur.com/8C2lwaC.png);
+    font-family: "foundation-icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    text-decoration: inherit;
+    margin-right: 5px;
+}
+
+#chat .chat-container ul.chat-main li.user-5606a17880fe8d0300855333 .activity-row .text p a.username:before { /* Medeiros */
+    content: url(https://i.imgur.com/8C2lwaC.png);
+    font-family: "foundation-icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    text-decoration: inherit;
+    margin-right: 5px;
+}
