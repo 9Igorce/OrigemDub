@@ -68,12 +68,12 @@
 }
 
 /* UserList Role */
-.user-swordling p.dubs:after, .user-the_igorce9 p.dubs:after {
+p.dubs:after, .user-the_igorce9 p.dubs:after {
     content: " - OrigemDub Creator";
     font-weight: 700;
     color: #DB182E !important;
 }
-.user-swordling p.dubs:after, .user-medeiros p.dubs:after {
+p.dubs:after, .user-medeiros p.dubs:after {
     content: " - OrigemDub Spreader";
     font-weight: 700;
     color: #238341 !important;
