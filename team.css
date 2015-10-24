@@ -78,3 +78,9 @@
     font-weight: 700;
     color: #238341 !important;
 }
+
+.user-swordling p.dubs:after, .user-vovo_doido p.dubs:after {
+    content: " - OrigemDub Spreader";
+    font-weight: 700;
+    color: #238341 !important;
+}
