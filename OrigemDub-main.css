@@ -1,0 +1,73 @@
+#OrigemDub-menu {
+  float: right;
+  position: absolute;
+  top: 56px;
+  right: 0px;
+  width: 320px;
+  text-align: center;
+  background: black;
+} 
+#OrigemDub-logo {
+  z-index: 1001;
+}
+#OrigemDub-button {
+  background: url('https://i.imgur.com/hAFKXly.png');
+  background-size: 23px;
+  background-repeat: no-repeat;
+  background-position: -1px 5px;
+  height: 100%;
+  cursor: pointer;
+}
+#bg-input-field {
+  position: absolute;
+  width: 75px;
+}
+
+#afk-message-input {
+  position: absolute;
+  width: 75px;
+}
+/* Style */
+#OrigemDub .version {
+  font-style: italic;
+    font-size: 0.8em;  
+    text-align: center;  
+    margin-bottom: 20px;
+    width:100%;
+}
+#OrigemDub .title {
+  color: #12A9E0;
+  font-size: 16px;
+  text-align: center;
+}
+#OrigemDub-menu p { 
+  text-align: left; 
+  margin: 0 auto; 
+  width: 80px; 
+  display: inline-block; 
+  padding-right: 5px; 
+}
+#OrigemDub-menu a { 
+  font-size: 1.0em; 
+  color: #fff 
+}
+#OrigemDub-menu h3 { 
+  font-size: 20px; 
+  text-align: center; 
+  color: #12A9E0; 
+}
+#OrigemDub-menu h4 { 
+  font-size: 15px; 
+  text-align: right; 
+  color: #aaa; 
+}
+#OrigemDub-menu li {
+  width: 100%;
+  margin: 0 !important;
+  padding: 5px !important;
+  cursor: pointer;
+  font-size: 17px;
+  text-transform: none;
+  color: #aaa;
+  background: hsla(210,10%,10%,0.8);
+}
