@@ -82,18 +82,18 @@
 }
 
 /* UserList Role */
-ul.avatar-list p.dubs:after, .user-the_igorce9 p.dubs:after {
+ul.avatar-list p.dubs:after, li.user-the_igorce9 p.dubs:after {
     content: " - OrigemDub Creator";
     font-weight: 700;
     color: #DB182E !important;
 }
-ul.avatar-list p.dubs:after, .user-medeiros p.dubs:after {
+ul.avatar-list p.dubs:after, li.user-medeiros p.dubs:after {
     content: " - OrigemDub Spreader";
     font-weight: 700;
     color: #238341 !important;
 }
 
-ul.avatar-list p.dubs:after, .user-vovo_doido p.dubs:after {
+ul.avatar-list p.dubs:after, li.user-vovo_doido p.dubs:after {
     content: " - OrigemDub Vip";
     font-weight: 700;
     color: #FF7700 !important;
