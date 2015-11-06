@@ -1,19 +1,14 @@
 /* Username Color */
-#chat .user-5618102d6d8d111d002aca6f .username { /* Igorce9 */
+#chat .user-5618102d6d8d111d002aca6f a.username { /* Igorce9 */
   color: #DB182E !important;
   font-weight: bold;
 }
-#chat .user-560975bc8d4e570300dcbbf5 .username { /* Medeiros */
+#chat .user-560975bc8d4e570300dcbbf5 a.username { /* Medeiros */
   color: #238341 !important;
   font-weight: bold;
 }
-#chat .user-5606a17880fe8d0300855333 .username { /* Vovo_Doido */
+#chat .user-5606a17880fe8d0300855333 a.username { /* Vovo_Doido */
  color: #FF7700 !important;
- font-weight: bold;
-}
-
-#chat .user-56097ff0d3ec4d030049c82b .username { /* FNC_Wrest */
- color: #DB182E !important;
  font-weight: bold;
 }
 
@@ -27,10 +22,6 @@
 
 #chat .user-5606a17880fe8d0300855333 .image_row { /* Vovo_Doido */
   content: url(https://www.dropbox.com/s/4yqjnsjn77bhdsg/VIPBADGE30px.png?raw=1);
-}
-
-#chat .user-56097ff0d3ec4d030049c82b .image_row { /* FNC_Wrest */ 
-	content: url(https://www.dropbox.com/s/smokgtodlttpwb9/DEVBADGE30px.png?raw=1);
 }
 
 /* Icon */
@@ -91,25 +82,19 @@
 }
 
 /* UserList Role */
-.user-swordling p.dubs:after, .user-the_igorce9 p.dubs:after {
+ul.avatar-list p.dubs:after, .user-the_igorce9 p.dubs:after {
     content: " - OrigemDub Creator";
     font-weight: 700;
     color: #DB182E !important;
 }
-.user-swordling p.dubs:after, .user-medeiros p.dubs:after {
+ul.avatar-list p.dubs:after, .user-medeiros p.dubs:after {
     content: " - OrigemDub Spreader";
     font-weight: 700;
     color: #238341 !important;
 }
 
-.user-swordling p.dubs:after, .user-vovo_doido p.dubs:after {
+ul.avatar-list p.dubs:after, .user-vovo_doido p.dubs:after {
     content: " - OrigemDub Vip";
     font-weight: 700;
     color: #FF7700 !important;
-}
-
-.user-swordling p.dubs:after, .user-fnc_wrest p.dubs:after {
-    content: " - OrigemDub Developer";
-    font-weight: 700;
-    color: #DB182E !important;
 }
