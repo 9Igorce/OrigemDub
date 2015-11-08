@@ -1,0 +1,359 @@
+#OrigemDub {    
+    position: absolute;
+    top: 64px;
+    left: 10px;
+    width: 130px;    
+    background: #000;
+    background: rgba(0,0,0,0.5);        
+    padding: 10px;    
+    z-index: 10;
+    font-weight: bold;
+    font-size: 0.9em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 25px;
+}
+#OrigemDub p {
+    text-align: left;
+    margin: 0 auto;
+    width: 80px;
+    display: inline-block;
+    padding-right: 5px;
+}
+#OrigemDub u {
+    text-align: left;
+    margin: 0 auto;
+    width: 80px;
+    display: inline-block;
+    padding-right: 5px;
+}
+#OrigemDub a {
+    font-size: 0.9em;
+    color: #fff;
+}
+#OrigemDub h3 {
+    font-size: 16px;    
+    text-align: center;
+    color: #00b5e6;
+}
+#OrigemDub h4 {
+    font-size: 12px;
+    text-align: center;
+    color: #00b5e6;
+}
+#OrigemDub .version {
+    font-style: italic;
+    font-size: 0.8em;  
+    text-align: center;  
+    margin-bottom: 20px;
+    width:100%;
+}
+#OrigemDub .more-button {
+    font-style: italic;
+    font-size: 0.8em;  
+    text-align: center;  
+    margin-bottom: 20px;
+    width:100%;
+}
+#OrigemDub .disclaimer {
+    font-style: italic;
+    font-size: 0.7em;
+    text-align: center;
+    padding-top: 10px;
+}
+#DisableFullScreen {    
+    position: absolute;
+    top: 0;
+    right: 0;    
+    background: #000;
+    background: rgba(0,0,0,0.5);        
+    padding: 10px;    
+    z-index: 100000000;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#DisableFullScreen .highlight {    
+    color: #00b5e6;
+}
+#fullscreenDisable .highlight {    
+    color: #00b5e6;
+}
+#fullscreenDisable {    
+    cursor: pointer;
+}
+#friendfinder .highlight {    
+    color: #00b5e6;
+}
+#friendfinder {    
+    cursor: pointer;
+}
+#OrigemDubRight {    
+    position: absolute;
+    top: 0;
+    right: 0;    
+    background: #000;
+    background: rgba(0,0,0,0.5);        
+    padding: 10px;    
+    z-index: 10;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.disabled1 {    
+    display: none;
+}
+.disabled2 {    
+    z-index: 2000;
+}
+#OrigemDubRight p {
+    text-align: center;
+    margin: 0 auto;
+}
+#OrigemDubRight a {
+    font-size: 0.9em;
+    color: #fff;
+}
+#OrigemDubRight h3 {
+    font-size: 16px;    
+    text-align: center;
+    color: #00b5e6;
+}
+#OrigemDubRight .version {
+    font-style: italic;
+    font-size: 0.8em;  
+    text-align: center;  
+    margin-bottom: 20px;
+}
+#OrigemDubRight .disclaimer {
+    font-style: italic;
+    font-size: 0.7em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#OrigemDubBottom {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+background: #000;
+background: rgba(0,0,0,0.5);
+padding: 10px;
+z-index: 9999;
+font-weight: bold;
+font-size: 0.9em;
+}
+
+#OrigemDubBottom2 {
+float: left;
+padding: 2px 5px 2px 0px;
+font-weight: lighter;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+text-align: center;
+}
+
+#userJoin {
+    color: #009cdd;
+}
+#userLeave {  
+    color: #f46b40;
+}
+#alert {
+    color: #FF0000;
+}
+.orange-bg {
+    background: rgba(244, 107, 64, 0.29) !important;
+}
+.blue-bg {
+    background: rgba(64, 158, 244, 0.29) !important
+}
+
+.onoffswitch {
+    margin: 5px auto 10px auto;
+    position: relative; width: 40px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    display: inline-block;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    float: left; width: 50%; height: 5px; padding: 0; line-height: 5px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "";
+    padding-left: 10px;
+    background-color: #2FCCFF; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    width: 9px; margin: -2px;
+    background: #FFFFFF;
+    border: 2px solid #999999; border-radius: 20px;
+    position: absolute; top: 0; bottom: 0; right: 31px;
+    -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+.customButtons {
+    background-color:#90ad2f;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+    border-radius:27px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:arial;
+    font-size:16px;
+    padding:3px 40px;
+    text-decoration:none;
+    text-shadow:2px 2px 1px #2f6627;
+}
+.customButtons:hover {
+    background-color:#798f2b;
+}
+.customButtons:active {
+    position:relative;
+    top:1px;
+}
+#OrigemDubOther {    
+    position: absolute;
+    top: 64px;
+    right: 355px;
+    width: 130px;    
+    background: #000;
+    background: rgba(0,0,0,0.5);        
+    padding: 10px;    
+    z-index: 10;
+    font-weight: bold;
+    font-size: 0.9em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#OrigemDubOther p {
+    text-align: right;
+    margin: 0 auto;
+    display: inline-block;
+    padding-right: 5px;
+}
+#OrigemDubOther a {
+    font-size: 0.9em;
+    color: #fff;
+}
+#OrigemDubOther h3 {
+    font-size: 16px;    
+    text-align: center;
+    color: #00b5e6;
+}
+#OrigemDubOther .version {
+    font-style: italic;
+    font-size: 0.8em;  
+    text-align: center;  
+    margin-bottom: 20px;
+    width:100%;
+}
+#OrigemDubOther .disclaimer {
+    font-style: italic;
+    font-size: 0.7em;
+    text-align: center;
+    padding-top: 10px;
+}
+.slideout-menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #333;
+    z-index: 100;
+}
+.slideout-menu h3 {
+    position: relative;
+    padding: 12px 10px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    border-bottom: 4px solid #222;
+}
+.slideout-menu .slideout-menu-toggle {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    display: inline-block;
+    padding: 6px 9px 5px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    background: #222;
+    color: #999;
+    text-decoration: none;
+    vertical-align: top;
+}
+.slideout-menu .slideout-menu-toggle:hover {
+    color: #fff;
+}
+.slideout-menu ul {
+    list-style: none;
+    font-weight: 300;
+    border-top: 1px solid #151515;
+    border-bottom: 1px solid #454545;
+}
+.slideout-menu ul li {
+    border-top: 1px solid #454545;
+    border-bottom: 1px solid #151515;
+}
+.slideout-menu ul li a {
+    position: relative;
+    display: block;
+    padding: 10px;
+    color: #999;
+    text-decoration: none;
+}
+.slideout-menu ul li a:hover {
+    background: #000;
+    color: #fff;
+}
+.slideout-menu ul li a i {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    opacity: 1;
+}
+ 
+@-webkit-keyframes move {
+    0% {
+       background-position: 0 0;
+    }
+    100% {
+       background-position: 50px 50px;
+    }
+}
+ #playback{
+  opacity: 1 !important;
+}
