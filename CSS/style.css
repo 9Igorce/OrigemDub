@@ -1,0 +1,39 @@
+#header-global {
+	opacity: 0.9;
+}
+#player-controller .left ul li.infoContainer {
+	opacity: 0.9;
+}
+#chat .pusher-chat-widget-input .icon-camera {
+	color: #12A9E0;
+}
+#chat .chat_tools span {
+	color: #12A9E0;
+}
+#chat .chat_tools span.display-chat {
+	color: #12A9E0;
+}
+#chat .chat_tools span.icon-chatsettings {
+	 color: #12A9E0;
+}
+#chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover {
+	color: #12A9E0;
+}
+#chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover {
+	color: #12A9E0;
+}
+#main_player .player_header span.active {
+	background: #12A9E0;
+}
+#main-room.display-users-rooms #chat .display-room-users {
+	color: #12A9E0;
+}
+#main-room.display-chat-settings #chat .display-chat-settings {
+	color: #12A9E0;
+}
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
+	background: #12A9E0;
+}
+#player-controller .right ul li .dubup.voted, #player-controller .right ul li .dubup:hover {
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px #00C700 100%);
+}
