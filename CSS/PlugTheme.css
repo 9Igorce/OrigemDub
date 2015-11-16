@@ -186,30 +186,6 @@ span.name,
     color: #AA74FE !important;
 }
 
-/** Admins **/
-#chat .chat-container ul.chat-main li.user-52c821781e2b1fd945000001 .activity-row .text p a.username,
-#chat .chat-container ul.chat-main li.user-52c8ef6037e22b0200000005 .activity-row .text p a.username,
-#chat .chat-container ul.chat-main li.user-52d24bff4cf9670200000515 .activity-row .text p a.username,
-#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000008 .activity-row .text p a.username,
-#chat .chat-container ul.chat-main li.user-52c8254ca7b7260200000001 .activity-row .text p a.username {
-	color: #42A5DC !important;
-}
-
-/* DubX Owners */
-#chat .chat-container ul.chat-main li.user-551d295433cd73030089d184 .activity-row .text p a.username,
-#chat .chat-container ul.chat-main li.user-53f7c199892b010200a98809 .activity-row .text p a.username {
-    color: #89BE6C !important;
-    text-shadow: 0px 0px 1px rgba(0,0,0,.5);
-}
-
-/** Team **/
-#chat .chat-container ul.chat-main li.user-55ff52375335f703008b0d38 .activity-row .text p a.username,
-#chat .chat-container ul.chat-main li.user-56030f67813abe030055f4a4 .activity-row .text p a.username,
-#chat .chat-container ul.chat-main li.user-56008425621a9e0300317238 .activity-row .text p a.username {
-	color: #ff3657 !important;
-    text-shadow: 0px 0px 1px rgba(0,0,0,.5);
-}
-
 /* User List */
 
 /** Admin **/
@@ -255,46 +231,6 @@ ul.avatar-list li.downdub {
 	background: rgba(196,46,59,0.2);
 	padding-left: 5px;
 	padding-right: 5px;
-}
-
-/** Team **/
-ul.avatar-list li.user-kris p.dubs:before,
-ul.avatar-list li.user-al3366 p.dubs:before,
-ul.avatar-list li.user-ciscog p.dubs:before {
-	content: "DubX Team  -  ";
-	font-weight: 700 !important;
-	color: #ff3657 !important;
-}
-ul.avatar-list li.co-owner.user-kris:after, ul.avatar-list li.co-owner.user-al3366  :after, ul.avatar-list li.co-owner.user-ciscog:after,
-ul.avatar-list li.creator.user-kris:after, ul.avatar-list li.creator.user-al3366  :after, ul.avatar-list li.creator.user-ciscog:after,
-ul.avatar-list li.manager.user-kris:after, ul.avatar-list li.manager.user-al3366  :after, ul.avatar-list li.manager.user-ciscog:after,
-ul.avatar-list li.mod.user-kris:after, ul.avatar-list li.mod.user-al3366  :after, ul.avatar-list li.mod.user-ciscog:after,
-ul.avatar-list li.vip.user-kris:after, ul.avatar-list li.vip.user-al3366  :after, ul.avatar-list li.vip.user-ciscog:after,
-ul.avatar-list li.resident-dj.user-kris:after, ul.avatar-list li.resident-dj.user-al3366  :after, ul.avatar-list li.resident-dj.user-ciscog:after,
-ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-al3366  :after, ul.avatar-list li.currentDJ .user-ciscog:after,
-.user-kris, .user-al3366, .user-ciscog,
-.user-kris p.username, .user-al3366 p.username, .user-ciscog p.username {
-    color: #ff3657 !important;
-}
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-kris p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.creator.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.creator.user-kris p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.manager.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.manager.user-kris p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.mod.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.mod.user-kris p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-kris p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.vip.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.vip.user-kris p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-al3366 p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.creator.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.creator.user-al3366 p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.manager.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.manager.user-al3366 p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.mod.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.mod.user-al3366 p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-al3366 p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.vip.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.vip.user-al3366 p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-ciscog p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.creator.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.creator.user-ciscog p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.manager.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.manager.user-ciscog p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.mod.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.mod.user-ciscog p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-ciscog p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.vip.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.vip.user-ciscog p.username:after {
-	color: #ff3657 !important;
 }
 
 /* Settings */
