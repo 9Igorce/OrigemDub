@@ -1,0 +1,381 @@
+/*
+    Custom CSS for Dubtrack.fm
+    Plug Theme and UI improvements
+    Originally made by @kris | Redone by @sinful
+    https://dubtrack.fm/kris
+    https://dubtrack.fm/sinful
+*/
+
+/* Main Menu (left) */
+#main-menu-left a.room-active-link {
+	color: #AA74FE;
+    box-shadow: inset 4px 0px 0px 0px #AA74FE
+}
+
+/* Main Menu (right) */
+#header-global .header-right-navigation .user-info span {
+	color: #AA74FE;
+}
+
+/* Top Header */
+a, a:active, a:focus, a:hover,
+#header-global .header-left-navigation a.room-active-link.active-room .icon-chevron, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover {
+	color: #AA74FE;
+}
+#main-loading {
+	background: #AA74FE;
+}
+#header-global .header-right-navigation .user-messages .message-counter {
+	background: #AA74FE;
+}
+
+/* Private Messages */
+#private-messages .main-message-list ul.message-list li.message-item .message-content h3, #private-messages .message-details ul.message-list li.message-item .message-content h3,
+#private-messages .main-message-list .message-header a, #private-messages .message-details .message-header a,
+#private-messages .message-details ul.message-list li.message-item .message-content h3 {
+	color: #AA74FE;
+}
+#private-messages .loading {
+	background: #AA74FE;
+}
+#private-messages .main-message-list ul.message-list li.message-item.new-message:before, #private-messages .message-details ul.message-list li.message-item.new-message:before {
+	background: #AA74FE;
+}
+#private-messages .main-message-list, #private-messages .message-details {
+	background: #1A1A1A;
+}
+
+/* Bottom Header */
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
+	background: #AA74FE;
+}
+.icon-play:before, .icon-playlist:before, .icon-history:before, .icon-heart:before {
+	color: #AA74FE;
+}
+#player-controller .right ul li .dubup.voted {
+	background: #90AD2F;
+}
+#player-controller .right ul li .dubup .icon-arrow-up, #player-controller .right ul li .dubup .dub-counter {
+	color: #90AD2F;
+}
+#player-controller .right ul li .dubdown.voted {
+	background: #C42E3B;
+}
+#player-controller .right ul li .dubdown .icon-arrow-down, #player-controller .right ul li .dubdown .dub-counter {
+	color: #C42E3B;
+}
+#player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, #player-controller .left, #player-controller .right {
+	background: #1A1A1A;
+}
+
+/* Add to Playlist */
+#addToPlaylistFloatContainer .playlist-list-action li:hover {
+	color: #AA74FE;
+}
+#addToPlaylistFloatContainer .create-playlist-input .icon-add {
+	background: #AA74FE;
+}
+
+/* Lobby */
+span.name,
+#room-list #container-room-list .room-item .current-song, #room-list #container-room-list .room-item .roomImage .join {
+	color: #AA74FE;
+    opacity: 0.5;
+}
+#room-list #container-room-list .room-item .roomImage .join {
+	background: #AA74FE;
+}
+#warning {
+	background: #AA74FE;
+	opacity: .90;
+}
+
+/* Video Player */
+#main_player {
+	background: rgba(8,8,8,0.78);
+	border-radius: 0.4rem;
+}
+#main_player #custom_iframe_embed_error, #main_player .playbtn-el {
+	background: #AA74FE;
+}
+
+/* Video Buttons (top) */
+#main_player .player_header span.active {
+	background: #AA74FE;
+	color: #000000;
+	font-weight: 600;
+}
+#main_player .player_header span {
+	border-radius: 0.4rem;
+	background: rgba(8,8,8,0.78);
+	font-weight: 500;
+	color: #FFF;
+}
+#room-info-display .room-info-display-wrapper h2 span i {
+	color: #AA74FE;
+}
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active {
+	#color: #42A5DC !important;
+}
+
+/* Video Buttons (bottom) */
+#main_player .play-song-link {
+	background: rgba(8,8,8,0.78);
+	border-radius: 0.4rem;
+}
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min,
+#main_player .play-song-link .queue-info {
+	background: #AA74FE;
+}
+
+/* Chat */
+#main-room .right_section, #profileMainSection {
+	background: rgba(8,8,8,0.78);
+	border-radius: 0.4rem;
+}
+#chat .chat_tools span:hover {
+	color: #AA74FE;
+}
+#chat .chat_tools span:after {
+	border-color: #AA74FE;
+}
+#chat .pusher-chat-widget-input #new-messages-counter {
+	background: #AA74FE;
+}
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
+	color: rgb(170, 170, 170);
+}
+#chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"] {
+    color: #FFDD6F !important;
+}
+#chat .chat-container .chat-messages .chat-main li.chat-system-loading, #chat .chat-container .chat-messages .chat-main li.chat-welcome-message, #chat .chat-container .chat-messages .chat-main li.system, #chat .chat-container .chat-messages .chat-main li.system-error {
+	font-size: 14px;
+}
+#chat .chat-main .isOwner .username, 
+#chat .chat-main .isOwner .username:hover, 
+#chat .chat-main .isOwner .username:visited{
+    color: #AA74FE !important;
+}
+
+#chat .chat-main .isCo-owner .username, 
+#chat .chat-main .isCo-owner .username:hover, 
+#chat .chat-main .isCo-owner .username:visited{
+    color: #AA74FE !important;
+}
+
+#chat .chat-main .isManager .username, 
+#chat .chat-main .isManager .username:hover, 
+#chat .chat-main .isManager .username:visited{
+    color: #AA74FE !important;
+}
+
+#chat .chat-main .isMod .username, 
+#chat .chat-main .isMod .username:hover, 
+#chat .chat-main .isMod .username:visited{
+    color: #AA74FE !important;
+}
+
+#chat .chat-main .isResident-dj .username, 
+#chat .chat-main .isResident-dj .username:hover, 
+#chat .chat-main .isResident-dj .username:visited{
+    color: #AA74FE !important;
+}
+#chat .chat-main .isVip .username, 
+#chat .chat-main .isVip .username:hover, 
+#chat .chat-main .isVip .username:visited{
+    color: #AA74FE !important;
+}
+
+/** Admins **/
+#chat .chat-container ul.chat-main li.user-52c821781e2b1fd945000001 .activity-row .text p a.username,
+#chat .chat-container ul.chat-main li.user-52c8ef6037e22b0200000005 .activity-row .text p a.username,
+#chat .chat-container ul.chat-main li.user-52d24bff4cf9670200000515 .activity-row .text p a.username,
+#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000008 .activity-row .text p a.username,
+#chat .chat-container ul.chat-main li.user-52c8254ca7b7260200000001 .activity-row .text p a.username {
+	color: #42A5DC !important;
+}
+
+/* DubX Owners */
+#chat .chat-container ul.chat-main li.user-551d295433cd73030089d184 .activity-row .text p a.username,
+#chat .chat-container ul.chat-main li.user-53f7c199892b010200a98809 .activity-row .text p a.username {
+    color: #89BE6C !important;
+    text-shadow: 0px 0px 1px rgba(0,0,0,.5);
+}
+
+/** Team **/
+#chat .chat-container ul.chat-main li.user-55ff52375335f703008b0d38 .activity-row .text p a.username,
+#chat .chat-container ul.chat-main li.user-56030f67813abe030055f4a4 .activity-row .text p a.username,
+#chat .chat-container ul.chat-main li.user-56008425621a9e0300317238 .activity-row .text p a.username {
+	color: #ff3657 !important;
+    text-shadow: 0px 0px 1px rgba(0,0,0,.5);
+}
+
+/* User List */
+
+/** Admin **/
+#main_avatar_room #main-user-list-room #avatar-list li.admin p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.admin p.username:after {
+	color: #42A5DC !important;
+}
+
+/** Moderators **/
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.creator p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.manager p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.mod p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.vip p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.mod p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.vip p.username:after {
+	color: #AA74FE;
+}
+
+/** Current DJ **/
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
+	color: #0FF;
+}
+
+/** Users **/
+#main_avatar_room #main-user-list-room #avatar-list li p {
+	color: #AAAAAA;
+}
+
+/** Upvote/Downvote **/
+ul.avatar-list li.updub {
+	background: rgba(144,173,47,0.2);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+ul.avatar-list li.downdub {
+	background: rgba(196,46,59,0.2);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/** Team **/
+ul.avatar-list li.user-kris p.dubs:before,
+ul.avatar-list li.user-al3366 p.dubs:before,
+ul.avatar-list li.user-ciscog p.dubs:before {
+	content: "DubX Team  -  ";
+	font-weight: 700 !important;
+	color: #ff3657 !important;
+}
+ul.avatar-list li.co-owner.user-kris:after, ul.avatar-list li.co-owner.user-al3366  :after, ul.avatar-list li.co-owner.user-ciscog:after,
+ul.avatar-list li.creator.user-kris:after, ul.avatar-list li.creator.user-al3366  :after, ul.avatar-list li.creator.user-ciscog:after,
+ul.avatar-list li.manager.user-kris:after, ul.avatar-list li.manager.user-al3366  :after, ul.avatar-list li.manager.user-ciscog:after,
+ul.avatar-list li.mod.user-kris:after, ul.avatar-list li.mod.user-al3366  :after, ul.avatar-list li.mod.user-ciscog:after,
+ul.avatar-list li.vip.user-kris:after, ul.avatar-list li.vip.user-al3366  :after, ul.avatar-list li.vip.user-ciscog:after,
+ul.avatar-list li.resident-dj.user-kris:after, ul.avatar-list li.resident-dj.user-al3366  :after, ul.avatar-list li.resident-dj.user-ciscog:after,
+ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-al3366  :after, ul.avatar-list li.currentDJ .user-ciscog:after,
+.user-kris, .user-al3366, .user-ciscog,
+.user-kris p.username, .user-al3366 p.username, .user-ciscog p.username {
+    color: #ff3657 !important;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-kris p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.creator.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.creator.user-kris p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.manager.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.manager.user-kris p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.mod.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.mod.user-kris p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-kris p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.vip.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.vip.user-kris p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-al3366 p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.creator.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.creator.user-al3366 p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.manager.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.manager.user-al3366 p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.mod.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.mod.user-al3366 p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-al3366 p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.vip.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.vip.user-al3366 p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-ciscog p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.creator.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.creator.user-ciscog p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.manager.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.manager.user-ciscog p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.mod.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.mod.user-ciscog p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-ciscog p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.vip.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.vip.user-ciscog p.username:after {
+	color: #ff3657 !important;
+}
+
+/* Settings */
+#chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover {
+	color: #AA74FE;
+}
+
+/* Queue */
+#browser .browser-content .browser-content-header .close-browser,
+#browser .browser-content .browser-content-main .nano .loading,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success,
+#browser .browser-content #import-playlist-container .close-import-playlist {
+	background: #AA74FE;
+}
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected {
+	background: #fff;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .playedby,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .dubs-display,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .playedby,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .dubs-display,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .playedby,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .dubs-display,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .playedby,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .preview,
+#browser .browser-content .browser-content-main .sidebar .import-playlist span,
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-display span,
+#browser .browser-content #import-playlist-container .playlist-type-select span:hover {
+	color: #AA74FE;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item.selected {
+	border: 1px solid #AA74FE;
+}
+
+/* Preview */
+.playerPreview .controlContainer .progressContainer .loaded, .playerPreview .controlContainer .progressContainer .progress,
+.playerPreview .ui-slider-range {
+	background: #AA74FE;
+}
+.playerPreview .ui-slider-handle {
+	background: #AA74FE;
+}
+
+/* Room Info */
+#roomInfoModal .modal-header h3, #roomFormUpdate .mid a, #roomInfoModal .mid a {
+	color: #AA74FE;
+}
+
+/* User */
+span.usernameContainer, .followers-counter,
+#profileMainSection .profileView .header .pictureContainer .updatePictureGif {
+	color: #AA74FE;
+}
+#profileMainSection .profileView .infoProfile .edit-btn, #profileMainSection .profileView .infoProfile .follow-btn {
+	color: #AA74FE;
+	border: 2px solid #AA74FE;
+}
+#profileMainSection .profileView .header .pictureContainer .updatePictureGif {
+	width: 101%;
+	height 101%;
+	background: #AA74FE;
+}
+#user_popover .actions, #user_popover .global-actions, #user_popover {
+	background: #AA74FE;
+	opacity: .95;
+}
+#user_popover .global-actions a, #user_popover .usercontent header .dubs, #user_popover .usercontent header h3 {
+	color: #393A39;
+}
+#user_popover .global-actions a {
+	outline: 1px solid #393A39;
+}
+#user_popover .actions a {
+	color: #3D3C43;
+	outline: 1px solid #3D3C43;
+}
+#user_popover .actions a input {
+	background: rgba(61, 60, 67, 0.69);
+}
