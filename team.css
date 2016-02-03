@@ -3,25 +3,17 @@
   color: #DB182E !important;
   font-weight: bold;
 }
-#chat .user-560975bc8d4e570300dcbbf5 a.username { /* Medeiros */
-  color: #238341 !important;
+#chat .user-56016d9e2e803803001001f4 a.username { /* Caipira */
+  color: #DB182E !important;
   font-weight: bold;
-}
-#chat .user-5606a17880fe8d0300855333 a.username { /* Vovo_Doido */
- color: #FF7700 !important;
- font-weight: bold;
 }
 
 /* Badge */
 #chat .user-5618102d6d8d111d002aca6f .image_row { /* Igorce9 */
 	content: url(https://www.dropbox.com/s/smokgtodlttpwb9/DEVBADGE30px.png?raw=1);
 }
-#chat .user-560975bc8d4e570300dcbbf5 .image_row { /* Medeiros */
+#chat .user-56016d9e2e803803001001f4 .image_row { /* Caipira */
   content: url(https://www.dropbox.com/s/kc4dejy9c1ynb51/SPRDBADG30px.png?raw=1);
-}
-
-#chat .user-5606a17880fe8d0300855333 .image_row { /* Vovo_Doido */
-  content: url(https://www.dropbox.com/s/4yqjnsjn77bhdsg/VIPBADGE30px.png?raw=1);
 }
 
 /* Icon */
@@ -39,35 +31,7 @@
     margin-right: 5px;
 }
 
-#chat .chat-container ul.chat-main li.user-560975bc8d4e570300dcbbf5 .activity-row .text p a.username:before { /* Medeiros */
-    content: url(https://i.imgur.com/8C2lwaC.png);
-    font-family: "foundation-icons";
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    text-decoration: inherit;
-    margin-right: 5px;
-}
-
-#chat .chat-container ul.chat-main li.user-5606a17880fe8d0300855333 .activity-row .text p a.username:before { /* Vovo_Doido */
-    content: url(https://i.imgur.com/ewa2dr8.png);
-    font-family: "foundation-icons";
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    text-decoration: inherit;
-    margin-right: 5px;
-}
-
-#chat .chat-container ul.chat-main li.user-56097ff0d3ec4d030049c82b .activity-row .text p a.username:before { /* FNC_Wrest */
+#chat .chat-container ul.chat-main li.user-56016d9e2e803803001001f4 .activity-row .text p a.username:before { /* Caipira */
     content: url(https://i.imgur.com/7MHdeHw.png);
     font-family: "foundation-icons";
     font-style: normal;
@@ -82,19 +46,13 @@
 }
 
 /* UserList Role */
-ul.avatar-list li.user-the_igorce9 p.dubs:before {
-    content: "OrigemDub Creator - ";
+ul.avatar-list li.user-the_igorce9 p.dubs:before { /* Igorce9 */
+    content: "OrigemWoot Dev - ";
     font-weight: 700;
     color: #DB182E !important;
 }
-ul.avatar-list li.user-medeiros p.dubs:before {
-    content: "OrigemDub Spreader - ";
+ul.avatar-list li.user-caipira p.dubs:before { /* Caipira */
+    content: "OrigemWoot Dev - ";
     font-weight: 700;
-    color: #238341 !important;
-}
-
-ul.avatar-list li.user-vovo_doido p.dubs:before {
-    content: "OrigemDub Vip - ";
-    font-weight: 700;
-    color: #FF7700 !important;
+    color: #DB182E !important;
 }
